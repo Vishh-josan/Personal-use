@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yes - That's a relief!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #2E8B57; /* Sea Green Background */
+            color: #fff; /* White text */
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 50px;
+            font-weight: bold;
+            animation: glow 1.5s ease-in-out infinite;
+        }
+
+        /* Glowing/Shining Text Effect */
+        @keyframes glow {
+            0% {
+                text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff7f50, 0 0 20px #ff7f50, 0 0 30px #ff7f50;
+                color: #ff7f50;
+            }
+            50% {
+                text-shadow: 0 0 10px #fff, 0 0 20px #ff7f50, 0 0 30px #ff7f50, 0 0 40px #ff7f50, 0 0 50px #ff7f50;
+                color: #ff6347;
+            }
+            100% {
+                text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff7f50, 0 0 20px #ff7f50, 0 0 30px #ff7f50;
+                color: #ff7f50;
+            }
+        }
+
+        p {
+            font-size: 25px;
+            margin-top: 20px;
+        }
+
+        .heart {
+            font-size: 50px;
+            color: red;
+        }
+
+        .button {
+            background-color: #4CAF50; /* Green button */
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>That's a relief! <span class="heart">❤️</span></h1>
+    <p>We're happy to know you're feeling well!</p>
+    
+    <a href="index.html" class="button">Back to Mam</a>
+
+</body>
+</html>
