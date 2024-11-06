@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No - What's the reason?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #808080; /* Grey Background */
+            color: #f0f0f0; /* Light Grey Text */
+            margin: 0;
+            padding: 20px;
+            background-image: url('https://www.transparenttextures.com/patterns/dark-wood.png'); /* Subtle texture for gloomy effect */
+            background-size: cover;
+        }
+
+        h1 {
+            font-size: 50px;
+            font-weight: bold;
+            color: #b0b0b0;
+            text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+            animation: pulse 2s infinite;
+        }
+
+        p {
+            font-size: 25px;
+            margin-top: 20px;
+            color: #ccc;
+        }
+
+        /* Gloomy Pulse Effect */
+        @keyframes pulse {
+            0% {
+                text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+                color: #ff6666;
+            }
+            50% {
+                text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000;
+                color: #ff3333;
+            }
+            100% {
+                text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+                color: #ff6666;
+            }
+        }
+
+        .button {
+            background-color: #4CAF50; /* Green button */
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+            opacity: 0.8;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>What's the reason?</h1>
+    <p>We hope everything is okay. Feel free to share what's bothering you.</p>
+    
+    <a href="index.html" class="button">Back to Mam</a>
+
+</body>
+</html>
